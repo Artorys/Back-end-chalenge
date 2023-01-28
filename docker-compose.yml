@@ -1,0 +1,20 @@
+  services:
+      mongo:
+        build: ./db
+        container_name: db
+        env_file: ./db/.env
+        network_mode: host
+
+      back-end:
+        container_name: back-end
+        build : ./back-end
+        network_mode: host
+        depends_on:
+          - mongo
+        
+      front-end:
+        container_name: front-end
+        build : ./front-end
+        network_mode: host
+        depends_on:
+          - back-end

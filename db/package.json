@@ -1,0 +1,19 @@
+{
+  "name": "db",
+  "version": "1.0.0",
+  "description": "database for application",
+  "main": "script.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Artorys/Back-end-chalenge.git"
+  },
+  "author": "Artorys",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Artorys/Back-end-chalenge/issues"
+  },
+  "homepage": "https://github.com/Artorys/Back-end-chalenge#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
+}
