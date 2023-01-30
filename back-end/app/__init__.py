@@ -1,6 +1,3 @@
-from flask import Flask
-from app.routes import init_route
+from app.application import create_app
 
-app = Flask(__name__)
-
-init_route(app)
+app = create_app()
