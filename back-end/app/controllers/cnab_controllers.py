@@ -42,7 +42,7 @@ def cnab_post_controller():
         data = {
             "tipo" : tipo,
             "data" : data,
-            "valor" : valor,
+            "valor" : str(int(valor) / 100),
             "cpf" : cpf,
             "cartao" : cartao,
             "hora" : hora,

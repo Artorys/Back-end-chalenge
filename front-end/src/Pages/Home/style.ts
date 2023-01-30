@@ -7,11 +7,19 @@ export const StyledDiv = styled.div`
     justify-content: center;
 `
 export const StyledMain = styled.main`
-    width : 25%;
-    height : 50%;
-    display: flex;
     flex-direction : column;
-    gap : 1rem;
     align-items : center;
     justify-content: center;
+`
+export const StyledTable = styled.table`
+    width: 100%;
+    display: flex;
+    justify-content : center;
+    align-items : center;
+    gap: 2rem;
+    height: 100%;
+`
+export const StyledTd = styled.td`
+    text-align : center;
+    border : 1px solid black
 `
