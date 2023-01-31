@@ -2,6 +2,8 @@
 
 Esse projeto visa carregar um arquivo .txt de Balançoes financeiros de pequenos comércios e mostrar seu saldo atual.
 
+Dockerização em andamento...
+
 ### Feito Com
 
 Abaixo segue o que foi utilizado na criação deste projeto:
