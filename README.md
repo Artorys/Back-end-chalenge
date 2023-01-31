@@ -43,24 +43,28 @@ Para conseguir utilizar o projeto localmente,siga os passos abaixo.
 ```sh
   python -m venv venv #Tenha certeza de estar utilizando o Python 3
 ```
-3.Instale as dependências:
+3. Utilize o venv:
+```sh
+  source venv/bin/activate #A ativacao difere do sistema operacional.
+```
+4.Dentro do ambiente instale as dependências:
 ```sh
   pip install -r requirements.txt
 ```
-4. Você irá precisar do banco de dados postgreSQL rodando na porta 5432.
-5. Você terá que criar um usuário e um banco de dados(caso ja tenha ótimo).
-6. A aplicação irá Utilizar da variável de ambiente .env para acessar o banco de dados.
-7. Siga o .env.example para a construção dos dados necessários.
-8. Com a conexão feita rode as migrações:
+5. Você irá precisar do banco de dados postgreSQL rodando na porta 5432.
+6. Você terá que criar um usuário e um banco de dados(caso ja tenha ótimo).
+7. A aplicação irá Utilizar da variável de ambiente .env para acessar o banco de dados.
+8. Siga o .env.example para a construção dos dados necessários.
+9. Com a conexão feita rode as migrações:
 ```sh
   flask db upgrade
 ```
-9. Com as migrações feitas Execute a aplicação back end:
+10. Com as migrações feitas Execute a aplicação back end:
 
 ```sh
   flask run
 ```
-1. Você verá algo semelhante no terminal:
+11. Você verá algo semelhante no terminal:
 ```sh
   * Running on http://127.0.0.1:5000
 Press CTRL+C to quit
